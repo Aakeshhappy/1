@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Your Website - Equal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Equal</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Request Form Section -->
+    <section class="request-form">
+        <div class="container">
+            <h2>Website Request Form</h2>
+            <form id="website-request-form">
+                <div class="form-step">
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-step">
+                    <input type="text" id="whatsapp" name="whatsapp" placeholder="WhatsApp Number" required>
+                </div>
+                <div class="form-step">
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-step">
+                    <input type="text" id="address" name="address" placeholder="Home Address" required>
+                </div>
+                <div class="form-step">
+                    <select id="plan" name="plan" required>
+                        <option value="">Select Plan</option>
+                        <option value="basic">Basic Plan</option>
+                        <option value="standard">Standard Plan</option>
+                        <option value="premium">Premium Plan</option>
+                    </select>
+                </div>
+                <div class="form-step">
+                    <input type="email" id="email" name="email" placeholder="Email (Optional)">
+                </div>
+                <div class="form-step">
+                    <input type="text" id="category" name="category" placeholder="Category" required>
+                </div>
+                <div class="form-step">
+                    <textarea id="description" name="description" rows="5" placeholder="Explain how the web should be" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
